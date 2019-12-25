@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_menu_home"
+        android:title="@string/menu_home" />
+
+    <item android:title="ЗНО">
+        <menu>
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_menu_tests"
+                android:title="@string/menu_tests" />
+            <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/ic_menu_manual"
+                android:title="@string/menu_manual" />
+        </menu>
+    </item>
+
+    <item android:title="Додатково">
+        <menu>
+            <item
+                android:id="@+id/nav_tools"
+                android:icon="@drawable/ic_menu_links"
+                android:title="@string/menu_links" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_about"
+                android:title="@string/menu_about" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>
